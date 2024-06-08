@@ -1,0 +1,25 @@
+# PHP storm files
+.idea/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Outputs
+*.xml
+
+outputs/html/*
+!outputs/html/.gitkeep
+outputs/pdf/*
+!outputs/pdf/.gitkeep
+
+# System files
+.DS_Store
+Thumbs.db
